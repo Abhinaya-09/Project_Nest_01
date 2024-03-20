@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FITNESS AND WELLNESS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, Sans-serif;
+            margin: 0;
+            background-color: hsl(187, 41%, 66%);
+        }
+
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: right;
+            padding: 12px;
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .navbar a:hover {
+            background-color: hsl(318, 93%, 77%);
+        }
+
+        .active {
+            background-color: #73fdb1d0;
+        }
+
+        @media screen and (max-width: 500px) {
+            .navbar a {
+                float: none;
+                display: block;
+            }
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .search-bar {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #search {
+            padding: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Welcome to FITNESS AND WELLNESS Website</h1>
+        <p>Life has no remote; get up and change it yourself.</p>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search...">
+            <button onclick="search()">Search</button>
+        </div>
+    </header>
+</body>
+</html>
+
